@@ -1,2 +1,2 @@
-import splash from './splash.jpg';
-export {splash};
+import SplashImage from './splash.jpg';
+export { SplashImage };

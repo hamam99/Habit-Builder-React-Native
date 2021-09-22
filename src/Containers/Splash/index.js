@@ -1,8 +1,23 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { View, ImageBackground, StyleSheet } from 'react-native';
+import { SplashImage } from '../../Assets';
 
 const Splash = () => {
-  return <Text>Splash Screen</Text>;
+  return (
+    <View style={styles.container}>
+      <ImageBackground
+        source={SplashImage}
+        resizeMode={'cover'}
+        style={styles.container}
+      />
+    </View>
+  );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+});
 
 export default Splash;
