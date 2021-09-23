@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, ImageBackground, StyleSheet, Text } from 'react-native';
 import { SplashImage } from '../../Assets';
+import { colors, fonts } from '../../Utils';
 
 const Splash = () => {
   return (
@@ -19,9 +20,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   title: {
-    fontFamily: 'Klasik-Regular',
+    fontFamily: fonts.klasik,
     fontSize: 40,
-    color: '#573353',
+    color: colors.sunset,
     textAlign: 'center',
     width: 260,
     marginTop: 96,
