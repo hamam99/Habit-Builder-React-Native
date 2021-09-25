@@ -1,5 +1,5 @@
 export const fonts = {
-  klasik: 'Klasik-Regular',
-  manrope: 'Manrope-Regular',
-  'manrope-bold': 'Manrope-Regular',
+  'klasik-regular': 'Klasik-Regular',
+  'manrope-regular': 'Manrope-Regular',
+  'manrope-bold': 'Manrope-Bold',
 };

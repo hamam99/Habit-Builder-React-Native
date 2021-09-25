@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   title: {
-    fontFamily: fonts.klasik,
+    fontFamily: fonts['klasik-regular'],
     fontSize: 40,
     color: colors.sunset,
     textAlign: 'center',
