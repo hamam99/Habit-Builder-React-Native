@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, ImageBackground, StyleSheet, Text } from 'react-native';
+import { ImageBackground, StyleSheet, Text } from 'react-native';
 import { SplashImage } from '../../Assets';
 import { colors, fonts } from '../../Utils';
 
